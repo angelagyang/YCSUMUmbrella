@@ -1,0 +1,107 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <html lang="en"> -->
+  <head> 
+    <title>You Can Stand Under My Umbrella - Home</title>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Sat, 08 Sep 2018 21:47:44 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>You Can Stand Under My Umbrella - Home</title>
+    
+    <style type="text/css">
+    body {
+      justify:center;
+    }
+    a { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#008000; }
+    a:active { color:#FF0000; }
+    .font {font-family: "Calibri", Calibri, sans-serif;}
+	.pad {padding:15px 50px 50px 50px;}
+	.pad2 {padding:75px 50px 50px 50px;}
+    </style>
+  </head>
+	<div class="container-fluid, font, pad">
+  <h1>You Can Stand Under My Umbrella </h1>	 
+	</div>
+  <body>
+
+<div class="container, font, pad" style="background-color:#3366cc;color:#FFFFFF;">
+    <h3><br>Should I Bring an Umbrella?</h3>
+		<div class="row" style="">
+    <form>
+      <div class="col-md-4">
+      <div class="form-group">
+      <label for="exampleto1">Enter your city</label>      
+      <input type="text" style="justify:center" value=""  class="form-control" placeholder="city"id="textbox" name="textbox" required></div></div>
+		  <div class="col-md-4">
+      <button type="button" style="color:#000000"class="form-control" (click)="onClickButt()">Tell Me The Weather!</button>
+				</div>
+       <div style="text-align:center;font-family:tahoma" id="info" name="info">{{displayed}}</div>
+  <div style="text-align:center;font-family:tahoma">{{detail}}</div>
+  </form>
+</div> 
+</div>
+
+<!-- second thingy -->
+<div class="container, font, pad" style="background-color:#3366ff;color:#FFFFFF">
+      		<h3><br>You Can Stand Under My Umbrella!</h3>
+				<div class="row">
+				<form>
+        
+         <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="examplegoing1">Name</label>
+					  		 <input type="text" class="form-control input1" id="nameHave" placeholder="Name"></div></div>
+					  <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="examplegoing1">I'm Here</label>
+					  		 <input type="text" class="form-control input1" id="startHave" placeholder="Address"></div></div>
+					  <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="exampleto1">I'm Heading To </label>
+					  		 <input type="text" class="form-control" id="endHave" placeholder="Address"></div></div>
+					  <div class="col-md-4">
+					  	   <button type="button" style="color:#000000"  class="form-control" (click)="umbrellaOpen()" style="background-color:#ffffff;color:#3366ff;" name="umbrella" id="umbrella">
+                  Open My Umbrella
+						   </button>
+                 <button type="button" style="color:#000000"  class="form-control" (click)="umbrellaClose()" style="background-color:#ffffff;color:#3366ff;" name="umbrella" id="umbrella">
+                Close My Umbrella
+						   </button>
+						   </div>
+				</form>
+				</div>
+		</div>
+	<div style="color:#000000" >is match: {{matchy}} </div>
+
+  <div class="container, font, pad" style="background-color:#3366ff;color:#FFFFFF">
+      		<h3><br>It's Raining and I Need an Umbrella!</h3>
+				<div class="row">
+				<form>
+        <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="examplegoing1">Name</label>
+					  		 <input type="text" class="form-control input1" id="nameNeed" placeholder="Name"></div></div>
+					  <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="examplegoing1">I'm Here</label>
+					  		 <input type="text" class="form-control input1" id="startNeed" placeholder="Address"></div></div>
+					  <div class="col-md-4">
+					  <div class="form-group">
+					  <label for="exampleto1">I'm Heading To </label>
+					  		 <input type="text" class="form-control" id="endNeed" placeholder="Address"></div></div>
+					  <div class="col-md-4">
+					  	   <button type="button" style="color:#000000"  class="form-control" (click)="giveMe()" style="background-color:#ffffff;color:#3366ff;" name="umbrella" id="umbrella">
+                  Find Me An Umbrella
+						   </button>
+						   </div>
+				</form>
+				</div>
+		</div>
+
+	</body>

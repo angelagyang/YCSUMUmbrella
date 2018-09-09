@@ -1,0 +1,15 @@
+body {
+    color:#ffffff;
+    background-color:#FFFFFF;
+    background-repeat:no-repeat;}
+  a { color:#0000FF; }
+  a:visited { color:#800080; }
+  a:hover { color:#008000; }
+  a:active { color:#FF0000; }
+  .font {font-family: "Calibri", Calibri, sans-serif;}
+  .pad {padding:15px 50px 50px 50px;}
+  .pad2 {padding:75px 50px 50px 50px;}
+
+  input {
+      width: 60% !important
+  }
